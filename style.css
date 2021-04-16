@@ -4,7 +4,7 @@
 
 #box1 {
   top: 150px;
-  background-color: red;
+  background-color: rgb(243, 76, 76);
   height: 60px;
   width: 60px;
   position: relative;
@@ -12,13 +12,13 @@
   animation-duration: 8s;
   animation-iteration-count: infinite;
   position: absolute;
-  border: 3px solid rgb(174, 0, 255);
+  border: 3px solid rgb(243, 51, 51);
 }
 
 body {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(#24c6dc, #514a9d);
+  background-image: linear-gradient(#38d4c7, #b854fa);
   min-height: 100vh;
 }
 
@@ -78,7 +78,7 @@ body {
 
 #box2 {
   top: 150px;
-  background-color: red;
+  background-color: rgb(243, 76, 76);
   height: 60px;
   width: 60px;
   position: relative;
@@ -86,7 +86,7 @@ body {
   animation-duration: 8s;
   animation-iteration-count: infinite;
   position: absolute;
-  border: 3px solid rgb(174, 0, 255);
+  border: 3px solid rgb(243, 51, 51);
 }
 @keyframes box2 {
   0% {
@@ -138,7 +138,7 @@ body {
 }
 
 #serdce1 {
-  background-color: red;
+  background-color: rgb(243, 51, 51);
   height: 200px;
   width: 120px;
   position: absolute;
@@ -148,12 +148,12 @@ body {
   border-radius: 100px 100px 10px 0;
   animation-name: cerdce1;
   animation-duration: 4s;
-  border: 3px solid rgb(174, 0, 255);
-  z-index: 100;
+  border: 3px solid rgb(243, 51, 51);
+  z-index: 1;
 }
 
 #serdce2 {
-  background-color: red;
+  background-color: rgb(243, 76, 76);
   height: 200px;
   width: 120px;
   position: absolute;
@@ -163,8 +163,8 @@ body {
   border-radius: 100px 100px 0 10px;
   animation-name: cerdce2;
   animation-duration: 4s;
-  border: 3px solid rgb(174, 0, 255);
-  z-index: 1;
+  border: 3px solid rgb(243, 51, 51);
+  z-index: 100;
 }
 
 @keyframes cerdce1 {
@@ -196,8 +196,8 @@ h1 {
   color: rgb(255, 217, 217);
   animation-name: text1;
   animation-duration: 4s;
-  left: 39%;
-  right: 34%;
+  left: 41%;
+  right: 32%;
   top: 215px;
 }
 
